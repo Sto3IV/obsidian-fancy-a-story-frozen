@@ -1,5 +1,7 @@
 # Frozen Kingdom
 
+![Frozen Kingdom Screenshot](screenshot.png)
+
 A magical, frost-bitten theme for Obsidian, built on the foundations of the [Fancy-a-Story](https://github.com/h-kataria/obsidian-fancy-a-story) theme.
 
 ## Features
