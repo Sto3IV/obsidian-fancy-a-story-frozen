@@ -2,7 +2,7 @@
 
 ![Frozen Kingdom Screenshot](screenshot.png)
 
-A magical, frost-bitten and highly optimized theme for Obsidian, built on the foundations of the [Fancy-a-Story](https://github.com/h-kataria/obsidian-fancy-a-story) theme, but drastically improved for performance and modern aesthetics.
+A magical, frost-bitten and highly optimized theme for Obsidian, built on the foundations of the [Frozen Kingdom](https://github.com/h-kataria/obsidian-frozen-kingdom) theme, but drastically improved for performance and modern aesthetics.
 
 ## Features
 - **Nord Palette Integration**: Every element is mathematically calculated for optimal contrast using the cold, icy colors of the Nord color palette (Polar Night, Snow Storm, Frost).

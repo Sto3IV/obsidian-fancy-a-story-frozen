@@ -267,8 +267,8 @@
 /* Sidebar backgrounds */@container style(--fas-bg-textures: enable) and style(--medieval-style-sidebar-textures: enable){.fas-skin-medieval:not(.fas-sidebar-texture-custom).theme-dark>*{--sidebar-texture-blend:var(--sidebar-texture-blend-dark)}.fas-skin-medieval:not(.fas-sidebar-texture-custom)>*{--sidebar-texture:var(--medieval-paper);--sidebar-texture-size:100% 100%;--sidebar-texture-blend:normal;--sidebar-texture-blend-dark:soft-light;--sidebar-texture-position:center top;--sidebar-texture-opacity:1}.fas-skin-medieval:not(.fas-sidebar-texture-custom)>* .mod-sidedock .workspace-tab-header-container:before{background-blend-mode:var(--sidebar-texture-blend);background-color:var(--workleaves-background);background-image:var(--medieval-scroll-header);background-position:bottom;background-repeat:no-repeat;background-size:100% 100%;content:"";inset:0;mask-image:var(--medieval-scroll-header);mask-position:center bottom;mask-repeat:no-repeat;mask-size:100% 100%;position:absolute;z-index:-1}.fas-skin-medieval:not(.fas-sidebar-texture-custom)>* .mod-sidedock .mod-top .workspace-tab-header-container:before{background-size:100% calc(100% - var(--workspace-top-margin));mask-size:100% calc(100% - var(--workspace-top-margin))}.fas-skin-medieval:not(.fas-sidebar-texture-custom)>* :is(.is-hidden-frameless:not(.is-fullscreen):not(.mod-macos) *) .workspace-tabs.mod-top-left-space .workspace-tab-header-container:before{height:unset;width:unset}.fas-skin-medieval:not(.fas-sidebar-texture-custom)>* .mod-sidedock .workspace-leaf{background-repeat:no-repeat;mask-image:var(--sidebar-texture);mask-position:var(--sidebar-texture-position);mask-size:var(--sidebar-texture-size)}.fas-skin-medieval:not(.fas-sidebar-texture-custom)>* .mod-sidedock .workspace-leaf:before{content:none}.fas-skin-medieval:not(.fas-file-explorer-decoration-custom).theme-dark>*{--file-explorer-decoration-blend:var(--file-explorer-decoration-blend-dark)}.fas-skin-medieval:not(.fas-file-explorer-decoration-custom)>*{--file-explorer-decoration:var(--medieval-crystal);--file-explorer-decoration-size:200px;--file-explorer-decoration-position:calc(100% + 50px) calc(100% + 15px);--file-explorer-decoration-opacity:1;--file-explorer-decoration-blend:darken;--file-explorer-decoration-blend-dark:multiply}.fas-skin-medieval:not(.fas-file-explorer-decoration-custom)>* .workspace-leaf-content[data-type=file-explorer]:before{filter:none}}
 
 /* @settings
-name: Fancy-a-Story
-id: fancy-a-story
+name: Frozen Kingdom
+id: frozen-kingdom
 settings:
   - id: colors
     title: Colors
@@ -907,7 +907,7 @@ settings:
     level: 2
   - id: fas-callout-cite-alt
     title: Theme quote callout
-    description: Enable to use the Fancy-a-Story specific style for the quote and
+    description: Enable to use the Frozen Kingdom specific style for the quote and
       cite callouts (the style can still be used with `cite-fas` or `quote-fas` callout
       types if you keep this option disabled).
     markdown: true
@@ -1933,9 +1933,9 @@ settings:
     title: Canvas node tags
     description: Usage of tags to define specific styling for canvas card can be very
       powerful. However, it requires a code that can cause performance issues. Also,
-      such styling come as independant snippets. You can add the file [canvas-node-bundle](https://github.com/ElsaTam/obsidian-fancy-a-story/blob/main/snippets/canvas/canvas-node-bundle.css)
+      such styling come as independant snippets. You can add the file [canvas-node-bundle](https://github.com/ElsaTam/obsidian-frozen-kingdom/blob/main/snippets/canvas/canvas-node-bundle.css)
       to your [snippets folder](https://help.obsidian.md/Extending+Obsidian/CSS+snippets)
-      to download all the effects. Or choose individual ones from [this list](https://github.com/ElsaTam/obsidian-fancy-a-story/tree/main/snippets/canvas).
+      to download all the effects. Or choose individual ones from [this list](https://github.com/ElsaTam/obsidian-frozen-kingdom/tree/main/snippets/canvas).
   - id: fas-recursive-rainbow-folders
     title: Recursive rainbow folders
     description: Files and subfolders inherit the color of their main folder.
@@ -2002,7 +2002,7 @@ body.theme-light .callout[data-callout="quote"] {
 /* --- INJECTED FROZEN KINGDOM SNIPPET --- */
 /*
  * Forgotten Frozen Kingdom
- * A Nord-inspired color palette override for the Fancy-a-Story theme
+ * A Nord-inspired color palette override for the Frozen Kingdom theme
  */
 
 body.theme-light, body.theme-dark {
@@ -2345,7 +2345,7 @@ body.theme-light .nav-file-title.is-active .nav-file-title-content {
 body.theme-light {
     /* Instead of solid flat #eceff4 which blocks the paper texture, 
        we use a semi-transparent frost tint. This allows the physical book 
-       texture of Fancy-a-Story to show through, but coats it in "ice". */
+       texture of Frozen Kingdom to show through, but coats it in "ice". */
     --background-primary: rgba(236, 239, 244, 0.6) !important;
     --background-secondary: rgba(229, 233, 240, 0.3) !important;
     --color-base-00: transparent !important;
@@ -2381,7 +2381,7 @@ body.theme-light {
     --table-row-hover-background: rgba(94, 129, 172, 0.1) !important;
 }
 
-/* Force borders just in case Fancy-a-Story removes them via CSS */
+/* Force borders just in case Frozen Kingdom removes them via CSS */
 body table th,
 body table td {
     border-bottom: var(--table-border-width) solid var(--table-border-color) !important;
