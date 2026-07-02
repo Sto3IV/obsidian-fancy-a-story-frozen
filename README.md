@@ -25,3 +25,9 @@ A magical, frost-bitten and highly optimized theme for Obsidian, built on the fo
 1. Download the `theme.css`, `publish.css`, and `manifest.json` files from the latest release.
 2. Place them in your `.obsidian/themes/Frozen Kingdom/` directory.
 3. Select "Frozen Kingdom" in your Obsidian Appearance settings.
+
+## License and Attribution
+This theme is a fork of [Fancy a Story](https://github.com/ElsaTam/obsidian-fancy-a-story) by [ElsaTam](https://github.com/ElsaTam). 
+
+In accordance with the copyleft requirements of the original theme, **Frozen Kingdom** is licensed under the **GNU General Public License v3 (GPLv3)**. Please see the [LICENSE](LICENSE) file for the full text.
+
