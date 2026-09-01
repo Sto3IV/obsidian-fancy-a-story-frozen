@@ -10,22 +10,28 @@ A highly aesthetic, deeply customized, and autonomous theme for Obsidian, heavil
 - **Stepped Lightness Gradients (Depth Perception)**: Nested subfolders are no longer a flat list. Every time you descend a level in the hierarchy, the subfolders increment in lightness, naturally guiding the eye down the tree.
 - **Total `Iconic` Plugin Integration**: Custom folder and file icons rendered by the `Iconic` plugin now flawlessly inherit the color and brightness shifts of the folders they reside in. Perfect visual harmony.
 
-## 🎨 Palette Mapping
+### 🎨 Git-Optimized Dynamic Palette Mapping
 
-The theme natively integrates an elegant Nord-cooled palette customized to the following thematic roots:
+The theme is built around a structured hierarchy of primary and secondary folders, automatically assigning distinct, carefully curated colors based on their sequential order. This creates a visually intuitive and atmospheric vault structure that integrates flawlessly with the **Obsidian Git** plugin:
 
-* `Library` - Pure Nord Frost Ice (`#88c0d0`)
-* `00 The Unsorted Anomalies` - Frost-tempered Amber
-* `01 Chronicles of Self` - Nord Aurora Cold Rose
-* `02 Chasm of the Cold Ambition` - Glacial Arctic Cyan
-* `03 Garden of the Inner Voice` - Glacial Pine / Sage
-* `04 The Human Catalogue` - Nord Frost Topaz
-* `05 AI Diaries` - Synthetic Ice-Violet
-* `06 Shelf of Unmoored Books` - Aurora Copper Terracotta
-* `07 Hermes` - Arctic Water Blue (`#81a1c1`)
-* `08 Graveyard of Reflections` - Polar Slate Mist
-* `09 Vault of the Architect` - Deep Sea Sapphire (`#5e81ac`)
-* `10 Web of Desires` - Lunar Frost Amethyst (`#b48ead`)
+- **Root / Default** — Pure Nord Frost Ice (`#88c0d0`)
+- **Primary Folder 00** — Frost-tempered Amber
+- **Primary Folder 01** — Nord Aurora Cold Rose
+- **Primary Folder 02** — Glacial Arctic Cyan
+- **Primary Folder 03** — Glacial Pine & Sage
+- **Primary Folder 04** — Nord Frost Topaz
+- **Primary Folder 05** — Synthetic Ice-Violet
+- **Primary Folder 06** — Aurora Copper Terracotta
+- **Primary Folder 07** — Arctic Water Blue (`#81a1c1`)
+- **Primary Folder 08** — Polar Slate Mist
+- **Primary Folder 09** — Deep Sea Sapphire (`#5e81ac`)
+- **Primary Folder 10** — Lunar Frost Amethyst (`#b48ead`)
+
+**Why this structure?**
+By mapping colors to a sequenced primary/secondary folder architecture, your vault naturally encourages a clean, root-level directory design. This predictability is ideal for version control:
+- **Clean Commits:** It prevents root-level clutter by isolating knowledge domains into distinct top-level directories (`00`, `01`, `02`, etc.).
+- **Effortless `.gitignore` Management:** You can easily ignore specific secondary or primary folders without complex wildcard rules.
+- **Visual Branching:** The distinct color palette helps you instantly identify which "knowledge branch" you are currently navigating, reducing friction when staging files for Git.
 
 ## 🛠 Features
 
